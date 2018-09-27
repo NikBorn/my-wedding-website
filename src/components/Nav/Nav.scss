@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  z-index: 100;
+  background-color: transparent;
+  top: 20px;
+  left: 20px;
+  // width: 100px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.nav li {
+  background-color: #ffffff80;
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+  // display: inline-block;
+  width: 100px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+li:hover {
+  background-color: #ffffff99
+}

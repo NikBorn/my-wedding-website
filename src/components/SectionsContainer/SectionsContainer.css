@@ -1,0 +1,17 @@
+.our-story-image {
+  background-image: url("../../assests/images/our-story.png");
+  background-position: 0 -100px; }
+
+.next-image {
+  background-image: url("../../assests/images/AN299.png");
+  background-position: 0 -100px; }
+
+.section-text {
+  text-align: justify;
+  margin: 40px auto 0;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 40px; }

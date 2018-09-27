@@ -1,0 +1,116 @@
+.card-container {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+
+.card-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  height: 800px;
+}
+
+.card-container li {
+  position: relative;
+  width: 50%;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-container li div {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  min-height: 400px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.back p {
+  margin: 30px auto;
+  font-size: 12px;
+  width: 76%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  letter-spacing: .05em;
+}
+
+.front {
+  background-color: blue;
+}
+
+.front-groom {
+  background-image: url('../../assests/images/groom.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.back-groom {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../../assests/images/groom-back.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.front-bride {
+  background-image: url('../../assests/images/bride.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.back-bride {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../../assests/images/bride-back.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.front-venue {
+  background-image: url('../../assests/images/stonebrookmanor.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.back-venue {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../../assests/images/stonebrookmanor-back.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.front-wedding-party {
+  background-image: url('../../assests/images/wedding-party.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.back-wedding-party {
+  background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../../assests/images/wedding-party-back.png');
+  background-size: cover;
+  background-position: center top;
+}
+
+.card-container div.back {
+  transition: 0.3s ease-out;
+  transform: rotateY(90deg);
+}
+
+.card-container div.front {
+  position: absolute;
+  transition: 0.3s .3s ease-in;
+}
+
+.card-container li:hover div.front {
+  transform: rotateY(90deg);
+  transition: 0.3s ease-out;
+}
+
+.card-container li:hover div.back {
+  transform: rotateY(0deg);
+  transition: 0.3s 0.3s ease-out;
+}
